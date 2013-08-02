@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
-<article class="post mb">
+<article class="post">
   <h1 class=""><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
   {{ post.excerpt }}
 </article>
