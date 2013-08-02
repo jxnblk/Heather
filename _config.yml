@@ -1,0 +1,11 @@
+name: "Heather"
+description: "A Hyperminimal Jekyll Theme"
+author: "Jxnblk"
+
+# url: "http://productionurl.com
+url: "http://localhost:4000"
+baseurl: ""
+
+exclude: [README.md, Rakefile]
+paginate: 16
+permalink: /demo/:title

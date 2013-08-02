@@ -1,0 +1,10 @@
+{% include _head.html %}
+{% include _header.html %}
+
+<article class="post">
+  <h1 class=""><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+  {{ page.content | markdownify }}
+  <p class="small gray">{{ page.date | date_to_long_string }}</p>
+</article>
+
+{% include _footer.html %}
