@@ -2,7 +2,7 @@ name: "Heather"
 description: "A Hyperminimal Jekyll Theme"
 author: "Jxnblk"
 
-url: "http://jxnblk.github.io/heather
+url: "http://jxnblk.github.io/heather"
 baseurl: "/heather"
 
 exclude: [README.md, Rakefile]
