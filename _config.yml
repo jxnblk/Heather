@@ -1,11 +1,10 @@
-name: "Heather"
-description: "A Hyperminimal Jekyll Theme"
-author: "Jxnblk"
+name: "Blog Title"
+description: "Put your description here"
+author: ""
 
-# url: "http://productionurl.com
 url: "http://localhost:4000"
 baseurl: ""
 
 exclude: [README.md, Rakefile]
 paginate: 16
-permalink: /demo/:title
+permalink: /:title
