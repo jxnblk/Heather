@@ -3,7 +3,6 @@ description: "Put your description here"
 author: ""
 
 url: "http://localhost:4000"
-baseurl: ""
 
 exclude: [README.md, Rakefile]
 paginate: 16
