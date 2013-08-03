@@ -42,7 +42,7 @@ h1 a { color: #333;}
   padding: 32px 5% 64px 5%;
 }
 
-.m-0 { margin: 0; }
+.m-0 { margin-top: 0; margin-bottom: 0; }
 .mb { margin-bottom: 64px; }
 
 .post { margin-bottom: 96px; }
@@ -53,4 +53,222 @@ h1 a { color: #333;}
 .fr { float: right; }
 
 .gray { color: #999; }
+
+
+
+
+/* Landing Page Preview Image */
+
+.preview-wrap {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2em 5% 4em 5%;
+}
+
+
+/* Device Previews */
+.product-hero {
+  position: relative;
+  width: 100%;
+  max-width: 90rem;
+  margin: 2rem auto 1rem auto;
+  height: 52em;
+  font-size: 6px;
+  overflow: hidden;
+  -webkit-transition: all .2s linear; }
+
+.device, .device img, .device-screen {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.device {
+  margin: 0 auto;
+  position: absolute; }
+
+.device article {
+  margin-top: 3em; }
+
+.device-screen {
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  line-height: 1.5; }
+
+.device-screen h1 {
+  margin-bottom: 0;
+}
+
+.device-screen p {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.device-screen h1 + p {
+  margin-top: 0; }
+
+/* MBP */
+.device.mbp {
+  font-size: .5em;
+  left: -5%; }
+
+.mbp.device img {
+  width: 180em;
+  height: 102em; }
+
+.mbp .device-screen {
+  width: 135em;
+  height: 80em;
+  left: 22.5em;
+  top: 10em;
+  padding: 4em; }
+
+.mbp .device-screen article,
+.mbp .device-screen header {
+  max-width: 72em;
+  margin-left: auto;
+  margin-right: auto; }
+
+.mbp h1 {
+  font-size: 6em;
+}
+
+.mbp h2 {
+  font-size: 4.5em; }
+
+.mbp p {
+  font-size: 1.875em;
+  margin-top: 1.5em; }
+
+/* iPad */
+.ipad.device {
+  font-size: .5em;
+  left: 65%;
+  top: 20em; }
+
+.ipad.device img {
+  width: 56em;
+  height: 84em; }
+
+.ipad .device-screen {
+  width: 48em;
+  height: 58em;
+  left: 4em;
+  top: 16em;
+  padding: 4em 5%; }
+
+.ipad h1 {
+  font-size: 4em; }
+
+.ipad h2 {
+  font-size: 3em; }
+
+.ipad p {
+  font-size: 1.25em;
+  margin-top: 1em; }
+
+/* iPhone */
+.iphone.device {
+  font-size: .5em;
+  top: 51.5em;
+  left: 60%; }
+
+.iphone.device img {
+  width: 28em;
+  height: 52em; }
+
+.iphone .device-screen {
+  width: 20em;
+  height: 33em;
+  left: 4em;
+  top: 8em;
+  padding: 2em 5%; }
+
+.iphone h1 {
+  font-size: 2em; }
+
+.iphone h2 {
+  font-size: 1.5em; }
+
+.iphone p {
+  font-size: 1.125em;
+  margin-top: 1em; }
+
+@media screen and (min-width: 480px) {
+  .device.mbp {
+    left: 0; }
+
+  .iphone.device {
+    left: 60%; } }
+@media screen and (min-width: 640px) {
+  .product-hero {
+    font-size: 8px; }
+
+  .device.mbp {
+    left: 5%; } }
+@media screen and (min-width: 1024px) {
+  .product-hero {
+    font-size: 10px; }
+
+  .device.mbp {
+    left: 10%; }
+
+  .ipad.device {
+    left: 65%; } }
+@media screen and (min-width: 1280px) {
+  .product-hero {
+    font-size: 12px; }
+
+  .device.mbp {
+    left: 10%; }
+
+  .ipad.device {
+    left: 65%; }
+
+  .iphone.device {
+    left: 60%; } }
+
+.hover-show {
+  display: none; }
+
+.hover-group:hover .hover-show {
+  display: block; }
+
+.pos-abs { position: absolute; }
+.top { top: 0; }
+.right { right: 0; }
+
+.circ128 {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 128px;
+}
+
+.mr { margin-right: 32px; }
+
+.btn-blue {
+  color: #fff;
+  background-color: #09c;
+}
+
+.anim-fast {
+  -webkit-animation-duration: .1s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes grow-in {
+  0%   { -webkit-transform: scale(0.8); }
+  100% { -webkit-transform: scale(1); }
+}
+@-webkit-keyframes fade-in {
+  0% { opacity: .5; }
+  100% { opacity: 1; }
+}
+
+.grow-fade-in {
+  -webkit-animation-name: grow-in, fade-in;
+}
 
