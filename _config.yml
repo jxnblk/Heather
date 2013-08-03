@@ -2,9 +2,8 @@ name: "Heather"
 description: "A Hyperminimal Jekyll Theme"
 author: "Jxnblk"
 
-url: "http://localhost:4000"
-# url: "http://jxnblk.github.io/Heather"
-baseurl: "/Heather"
+# url: "http://localhost:4000"
+url: "http://jxnblk.github.io/Heather"
 
 exclude: [README.md, Rakefile]
 paginate: 16

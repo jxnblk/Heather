@@ -2,7 +2,7 @@
 {% include _header.html %}
 
 <article class="post">
-  <h1 class=""><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+  <h1 class=""><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
   {{ page.content | markdownify }}
   <p class="small gray">{{ page.date | date_to_long_string }}</p>
 </article>
