@@ -2,7 +2,8 @@ name: "Blog Title"
 description: "Put your description here"
 author: ""
 
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
+url: "http://jxnblk.github.io/Heather"
 
 exclude: [README.md, Rakefile]
 paginate: 16

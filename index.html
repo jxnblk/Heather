@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: landing
 ---
 
-{% for post in paginator.posts %}
-<article class="post">
-  <h1 class=""><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-  {{ post.excerpt }}
-  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Read More &raquo;</a>
-</article>
-{% endfor %}
-
-{% include _pagination.html %}
+<h1 class="m-0">Heather</h1>
+<p>A Hyperminimal Jekyll Theme</p>
+<p><a href="{{ site.url }}/demo">View Demo</a></p>
+<p><a href="http://github.com/jxnblk/Heather">Fork Me on Github</a></p>
+<p class="small">Made with love by <a href="http://jxnblk.com">Jxnblk</a></p>

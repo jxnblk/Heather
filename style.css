@@ -42,7 +42,7 @@ h1 a { color: #333;}
   padding: 32px 5% 64px 5%;
 }
 
-.m-0 { margin: 0; }
+.m-0 { margin-top: 0; margin-bottom: 0; }
 .mb { margin-bottom: 64px; }
 
 .post { margin-bottom: 96px; }
@@ -53,4 +53,3 @@ h1 a { color: #333;}
 .fr { float: right; }
 
 .gray { color: #999; }
-
