@@ -2,7 +2,7 @@
 {% include _header.html %}
 <main>
 <article class="post">
-  <h1 class=""><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+  <h1><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
   {{ content }}
   <p class="small gray"><time datetime="{{ page.date | date: "%Y-%m-%d"}}">{{ page.date | date_to_long_string }}</time></p>
 </article>
